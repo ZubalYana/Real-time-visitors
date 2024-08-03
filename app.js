@@ -9,6 +9,8 @@ const PORT = 3000
 const path = require('path')
 const mongoose = require('mongoose');
 app.use(express.static(path.join(__dirname, 'public')))
+const TOKEN = '7121504275:AAHPive5eXJbB8RssVnYWZeBgloZZ7nXGvs';
+const chatId = '1132590035'
 app.get('/', (req,res)=>{
     res.sendFile(__dirname, 'public', 'index.html')
 })
