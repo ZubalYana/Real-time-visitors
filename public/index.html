@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.js" integrity="sha512-luMnTJZ7oEchNDZAtQhgjomP1eZefnl82ruTH/3Oj/Yu5qYtwL7+dVRccACS/Snp1lFXq188XFipHKYE75IaQQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <div class="wrap">
@@ -13,7 +14,9 @@
     </div>
     
 
-
+    <script>
+        let socket = io();
+    </script>
     <script src="./main.js"></script>
 </body>
 </html>
