@@ -16,6 +16,7 @@ mongoose.connect(`mongodb+srv://zubalana0:pscc865qqDLqzpv3@cluster0.n2nxzri.mong
 .then(()=>{
     console.log(`Connected to mongo DB`)
 })
+
 io.on('connection', (socket)=>{
     console.log(`New user connected`)
     bot.sendMessage(chatId, `New user connected`)
