@@ -10,8 +10,8 @@ const mongoose = require('mongoose');
 const TelegramBot = require('node-telegram-bot-api');
 app.use(express.static(path.join(__dirname, 'public')));
 
-const TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN';
-const chatId = 'YOUR_CHAT_ID';
+const TOKEN = '7121504275:AAHPive5eXJbB8RssVnYWZeBgloZZ7nXGvs';
+const chatId = '1132590035';
 const bot = new TelegramBot(TOKEN, { polling: true });
 
 mongoose.connect(`mongodb+srv://zubalana0:pscc865qqDLqzpv3@cluster0.n2nxzri.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`)
